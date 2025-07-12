@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conversione sRGB</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+   <link rel="icon" type="image/png" href="img/icon.jpg">
+</head>
+<body class="bg-gray-100 font-sans text-gray-900">
+
+  <header class="py-8 text-center">
+    <h1 class="text-3xl font-bold">Conversione sRGB</h1>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 space-y-6">
+  <section class="intro-section">
+  <h2 class="section-title">Lo spazio RGB</h2>
+  <hr class="section-divider" />
+  <div class="img-text">
+    <img src="img/cubo.png" alt="RGB" class="intro-img" />
+    <p class="intro-text">
+    Dopo aver applicato le varie trasformazioni per cercare di rendere più percettive le immagini, è necessario visualizzare il risultato in maniera corretta sugli schermi.
+    Pertanto è necessario trasferire da LMS a RGB e lo si fa tramite matrice di conversione che permette di restituire i dati nello spazio coerente digitale.
+    </p>
+  </div>
+</section>
+<br>
+</main>
+  <main class="max-w-3xl mx-auto px-4 space-y-6">
+  <section class="intro-section">
+  <h2 class="section-title">Conversione sRGB</h2>
+  <hr class="section-divider" />
+  <div class="img-text">
+    <img src="img/srgb.png" alt="sRGB" class="intro-img" />
+    <p class="intro-text">
+     Oltre a convertire in RGB, è necessario definire un gamut specifico di rappresentazione e lo facciamo tramite una pesatura dei valori primari R,G,B che permette quindi di 
+     calibrare questi valori e avere uno spazio più rappresentativo.
+    </p>
+  </div>
+</main>
+  <div class="text-center py-4">
+         <a href="mrsr.html" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+        ⭠ torna al passo prima
+      </a>
+    </div>
+</section>
+
+ <div class="text-center py-4">
+      <a href="index.html" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+        ⌂ Home
+      </a>
+    </div>
+
+</body>
+</html>

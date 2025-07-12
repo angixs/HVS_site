@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Immagini Iperspettrali</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+   <link rel="icon" type="image/png" href="img/icon.jpg">
+</head>
+<body class="bg-gray-100 font-sans text-gray-900">
+
+  <header class="py-8 text-center">
+    <h1 class="text-3xl font-bold">Le immagini iperspettrali</h1>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 space-y-6">
+  <section class="intro-section">
+  <h2 class="section-title">Introduzione</h2>
+  <hr class="section-divider" />
+  <div class="img-text">
+    <img src="img/data_cube.png" alt="Immagine spettrale" class="intro-img" />
+    <p class="intro-text">
+      Il punto di partenza della pipeline, deve garantire quella che è la coerenza fisica, perché l'HVS
+      risponde per prima cosa alla reazione fisica/chimica di una scena osservata.<br>
+      Il dato iperspettrale riesce a misurare in maniera coerente il fenomeno fisico, acquisendo un dato del tipo (x,y,λ), 
+      che riesce a descrivere la posizione spaziale dell'informazione e la risposta frequenziale alla a tutte le lunghezze d'onda, 
+      andando anche oltre allo spettro visibile, pertanto è necessario fare il primo passaggio, ovvero andare nello spazio visibile
+      facendo un clip delle informazioni, nel range 400 nm 750 nm. 
+    </p>
+  </div>
+</section>
+</main>
+ <div class="text-center py-4">
+      <a href="index.html" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+         ⭠ torna al passo prima
+      </a>
+
+      <a href="conversione_lms.html" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+         prosegui ⭢
+      </a>
+    </div>
+  
+
+    <div class="text-center py-4">
+      <a href="index.html" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+         ⌂ Home
+      </a>
+    </div>
+
+</body>
+</html>

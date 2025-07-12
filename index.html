@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discussione Testi</title>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="icon" type="image/png" href="img/icon.jpg">
+
+   <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f172a">
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js')
+      .then(() => console.log("SW registrato"))
+      .catch((e) => console.error("SW fallito", e));
+  }
+</script>
+
+</head>
+<body class="bg-gray-100 font-sans text-gray-900">
+
+  <header class="text-center py-8">
+    <h1 class="text-3xl font-bold">Discussione dei Testi</h1>
+    <p class="text-gray-600">Clicca un'icona per aprire il contenuto</p>
+  </header>
+
+  <!-- Contenitore centrato con flex -->
+  <main class="flex justify-center px-4 pb-16 overflow-x-auto">
+    <div class="flex gap-6">
+
+      <a href="immagini_iperspettrali.html" class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition min-w-[120px] text-center block">
+        <div id="icon-book" class="mx-auto"></div>
+        <p class="mt-2">Immagini<br>Iperspettrali</p>
+      </a>
+
+      <a href="conversione_lms.html" class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition min-w-[120px] text-center block">
+        <div id="icon-pen" class="mx-auto"></div>
+        <p class="mt-2">Conversione<br>LMS</p>
+      </a>
+
+      <a href="veiling_glare.html" class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition min-w-[120px] text-center block">
+        <div id="icon-eye" class="mx-auto"></div>
+        <p class="mt-2">Veiling<br>Glare</p>
+      </a>
+
+      <a href="mrsr.html" class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition min-w-[120px] text-center block">
+        <div id="icon-cpu" class="mx-auto"></div>
+        <p class="mt-2">MRSR</p>
+      </a>
+
+      <a href="conversione_srgb.html" class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition min-w-[120px] text-center block">
+        <div id="icon-monitor" class="mx-auto"></div>
+        <p class="mt-2">Conversione<br>sRGB</p>
+      </a>
+
+    </div>
+  </main>
+  <div class="w-full flex justify-center mt-10">
+  <img src="img/confronto.png" alt="Immagine descrittiva" class="w-[800px] h-auto rounded-xl shadow-lg">
+</div>
+
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>

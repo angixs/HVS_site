@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veiling Glare</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+   <link rel="icon" type="image/png" href="img/icon.jpg">
+</head>
+<body class="bg-gray-100 font-sans text-gray-900">
+
+  <header class="py-8 text-center">
+    <h1 class="text-3xl font-bold">Veiling Glare</h1>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 space-y-6">
+  <section class="intro-section">
+  <h2 class="section-title">Dispersione retinica</h2>
+  <hr class="section-divider" />
+  <div class="img-text">
+    <img src="img/glare.png" alt="DispersioneRetinica" class="intro-img" />
+    <p class="intro-text">
+      Il primo meccanismo percettivo che viene integrato, è quello che rappresenta la dispersione retinca, ovvero
+      la dispersione di luce all'interno della retina. Questo rappresenta un fenomeno biologico che è presente sempre
+      durante il processo visivo. La dispersione retinica accade quando, durante la visione di una scena, la fonte luminosa che emana luce, con diversa potenza, viene
+      catturata dall'occhio e dispersa al suo interno, provcando quella che è la perdita di contrasto intorno alle fonti luminose.
+    </p>
+  </div>
+</section>
+<br>
+</main><main class="max-w-3xl mx-auto px-4 space-y-6">
+  <section class="intro-section">
+    <h2 class="section-title">Veiling Glare</h2>
+    <hr class="section-divider" />
+
+    <div class="img-text">
+      <img src="img/flare.jpg" alt="LMS" class="intro-img" />
+      <p class="intro-text">
+        Per simulare correttamente questo step biologico appena introdotto, è necessario simulare quello che è il Veiling Glare, ovvero un fenomeno 
+        con base matematica. Quello che abbiamo usato, è la formula 8 sancita dalla CIE nel 1999, che calcola il valore di Glare in base a vari fattori:
+      </p>
+    </div>
+
+    <!-- Nuovo blocco con immagine a lato elenco -->
+    <div class="list-image-block">
+      <ul class="styled-list">
+        <li>età dell'osservatore: poiché in base all'età, più è alta più l'effetto si nota;</li>
+        <li>angolo di visione: in base all'angolo che si genera osservando la scena e la fonte luminosa, avrà un peso diverso più l'angolo è ampio;</li>
+        <li>colore dell'iride: ovvero in base al pigmento dell'occhio, il Glare può essere più potente, se l'occhio è chiaro.</li>
+      </ul>
+      <img src="img/g.jpg" alt="Simulazione Glare" class="side-img" />
+    </div>
+  </section>
+</main>
+   <div class="text-center py-4">
+      <a href="conversione_lms.html" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+        ⭠ torna al passo prima
+      </a>
+
+      <a href="mrsr.html" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+         prosegui⭢
+      </a>
+    </div>
+  
+</section>
+</main>
+ <div class="text-center py-4">
+      <a href="index.html" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+        ⌂ Home
+      </a>
+    </div>
+
+</body>
+</html>
